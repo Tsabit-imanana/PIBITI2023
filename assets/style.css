@@ -1,0 +1,82 @@
+.content {
+    display: flex;
+    justify-content: space-between; /* Menyebarkan elemen ke sisi-sisi berlawanan */
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .headers{
+    height: 85px;
+  }
+  
+  .figure {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Balsamiq Sans", sans-serif;
+    color: black;
+  }
+  
+  .right-section {
+    display: flex;
+  }
+  
+  .koleksi, .hubungi {
+    font-size: 18px;
+    font-family: "Balsamiq Sans", sans-serif;
+    margin-left: 20px; /* Menambahkan jarak antara teks "Koleksi" dan "Hubungi Kami" */
+    color: black;
+  }
+  .border{
+    border-top: 2px solid black; 
+   
+  }
+  .hero{
+    height: 400px;
+    margin-right: 400px;
+
+  }
+  .herotext{
+    font-size: 36px;
+  }
+  .text{
+    margin-top: 15px;
+    font-size: 16px;
+    width: 420px;
+  }
+  .herophoto{
+    align-self: center;
+  }
+  .titletext{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    
+  }
+  .box{
+    border: 3px solid black;
+    border-radius: 30px;
+
+  }
+  .selectionbox{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 200px;
+    height: 50px;
+  }
+  .catalogbox{
+    margin-top: 10px;
+    height: 400px;
+    width: 100vw;
+    margin-right: 10px;
+  }
+  .spacing{
+    margin-top: 35px;
+  }
+  .selectedimage{
+    background-color: gainsboro;
+    margin-top: 20px;
+    height: 420px;
+    width: 28vw;
+  }
+  
