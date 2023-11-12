@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Balsamiq Sans';
+  src: url('fonts/balsamiqsans.woff2') format('woff2'), /* Format WOFF2 */
+       url('fonts/balsamiqsans.woff') format('woff'); /* Format WOFF */
+  /* Tambahkan format font lainnya jika diperlukan (TTF, EOT, dsb.) */
+}
+
 .content {
+  font-family: "Balsamiq Sans", sans-serif;
     display: flex;
     justify-content: space-between; /* Menyebarkan elemen ke sisi-sisi berlawanan */
     align-items: center;
@@ -7,7 +15,7 @@
   }
 
   .headers{
-    height: 85px;
+    height: 60px;
   }
   
   .figure {
@@ -28,7 +36,9 @@
     color: black;
   }
   .border{
-    border-top: 2px solid black; 
+    border-top: 3px solid black; 
+    margin-top: 20px;
+    margin-bottom: 10px;
    
   }
   .hero{
@@ -55,14 +65,39 @@
   }
   .box{
     border: 3px solid black;
-    border-radius: 30px;
+    border-radius: 15px;
 
   }
+  .searchbox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: black;
+  }
+  
+  .searchtext {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .selectionbox{
+    align-items: center;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
     margin-bottom: 8px;
     width: 200px;
     height: 50px;
+  }
+  .selectionboxtext{
+    text-align:center;
+    font-weight: 700;
   }
   .catalogbox{
     margin-top: 10px;
@@ -73,10 +108,55 @@
   .spacing{
     margin-top: 35px;
   }
+
   .selectedimage{
+    margin-right: 20px;
     background-color: gainsboro;
     margin-top: 20px;
     height: 420px;
     width: 28vw;
   }
-  
+  .questionsection{
+    text-align: left;
+  }
+  .email{
+      margin-top: 5px;
+      width: 28vw;
+      height: 35px;
+  }
+  .questiontextbox{
+    margin-top: 5px;
+    width: 28vw;
+    height: 150px;
+  }
+  .question {
+    display: flex;
+    justify-content: flex-end; /* Menggeser isi konten ke kanan */
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.email, .questiontextbox {
+    margin-left: auto; /* Menggeser elemen email dan questiontextbox ke kanan */
+}
+.footer{
+  height: 150px;
+}
+.image{
+  padding-top: 10%;
+  display: flex;
+  justify-content: center; /* Memposisikan gambar ke tengah secara horizontal */
+  align-items: center;
+}
+.productname{
+  padding-top: 10%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.photobox{
+  padding-top: 10%;
+  display: flex;
+  justify-content: center; /* Memposisikan gambar ke tengah secara horizontal */
+  align-items: center;
+}
